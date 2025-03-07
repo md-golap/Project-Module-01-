@@ -6,7 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>headeig</h1>
-    <h2>wo</h2>
+<?php  
+
+  
+$number = 3; 
+
+
+if ($number > 0) {  
+  echo "The number is positive.";  
+} elseif ($number < 0) {  
+  echo "The number is negative.";  
+} else {  
+  echo "The number is zero.";  
+}  
+
+?>  
 </body>
 </html>
