@@ -1,9 +1,7 @@
 <?php 
 
 
-    echo "enter a number";
-
-    $number =(int)readline();
+   $number = 34;
 
     if($number > 0){
         echo "The number is positive.\n";
